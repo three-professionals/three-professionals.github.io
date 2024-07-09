@@ -1,0 +1,109 @@
+:root {
+    --orange: #FFA500;
+    --indigo: #4B0082;
+    --green: #008000;
+    --light-bg: #F5F5F5;
+    --dark-text: #333333;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, var(--orange), var(--indigo), var(--green));
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--indigo);
+    font-family: 'Playfair Display', serif;
+}
+
+.about-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.quote {
+    font-style: italic;
+    color: var(--indigo);
+    border-left: 4px solid var(--indigo);
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+
+.profession-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.doctors {
+    background-color: rgba(255, 165, 0, 0.1);
+    border-left: 4px solid var(--orange);
+}
+
+.lawyers {
+    background-color: rgba(75, 0, 130, 0.1);
+    border-left: 4px solid var(--indigo);
+}
+
+.preachers {
+    background-color: rgba(0, 128, 0, 0.1);
+    border-left: 4px solid var(--green);
+}
+
+footer {
+    background-color: var(--dark-text);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
